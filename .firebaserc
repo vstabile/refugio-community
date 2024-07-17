@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "refugio-community"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
