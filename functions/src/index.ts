@@ -21,11 +21,11 @@ export const getNip05Json = functions.https.onRequest(async (req, res) => {
     }
 
     const nip05Data = nip05Doc.data();
-    const npub = nip05Data?.["name"];
+    const pubkey = nip05Data?.["pubkey"];
 
     res.json({
       names: {
-        [name]: npub,
+        [name]: pubkey,
       },
     });
   } catch (error) {
